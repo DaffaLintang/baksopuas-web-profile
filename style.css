@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+}
+
+#home{
+    padding-top: 100px;
+    background-color: #FFF6EF;
+    padding-bottom: 30px;
+}
+#menu{
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+#maps{
+    margin-top: -1px;
+    padding-bottom: 30px;
+}
+.navbar-nav a{
+    margin-left: 20px;
+}
+.imgBakso img{
+    width: 85%;
+    
+}
+.nav, .navbar-nav{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF8F3A;
+}
+
+
+.homeText h1{
+    color: #FF8F3A;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Fredoka", sans-serif;
+    /* margin-bottom: -30px; */
+}
+.homeText h3{
+    color: #FF8F3A;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Fredoka", sans-serif;
+    margin-bottom: 10px;
+}
+.homeText p{
+    font-size: 16px;
+}
+.homeText img{
+    width: 50%;
+    z-index: -1;
+    margin-top: -200px;
+}
+#menu h1{
+    font-family: "Fredoka", sans-serif;
+    color: #FF8F3A;
+    font-weight: 380;
+    font-size: 50px; 
+    margin-bottom: -5px;
+}
+#menu p{
+    font-family: "Fredoka", sans-serif;
+    width: 70%;
+    font-size: 18px;
+}
+.menu2{
+    justify-content: center;
+}
+.menu1{
+    justify-content: center;
+}
+.menu-img-1 img{
+    width: 80%; 
+}
+.menubiasa{
+    border: solid 1px black;
+}
+.card{
+    padding: 0px;
+    border-radius: 20px;
+}
+.card-body {
+    padding: 0;
+}
+.custom-card-img{
+    height: 125%;
+}
+#ulasan{
+    padding-bottom: 30px;
+    padding-top: 80px;
+    background-color: #FFF6EF;
+}
+#ulasan h1{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+}
+
+.b{
+    width: 400px;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-top: -15px;
+}
+.profil{
+    width: 60%;
+    border: solid 3px #FFD8BA;
+    border-radius: 50%;
+    margin-bottom: -100px;
+    z-index: 2;
+}
+.card-body-ulasan{
+    background-color: #FFD8BA;
+    width: 300px;
+    border-radius: 20px;
+    padding: 100px 10px 10px 10px;
+    height: 100%;
+}
+
+.card-body-ulasan p{
+    font-family: "Fredoka", sans-serif;
+}
+
+.nama {
+    font-size: 25px;
+    margin-bottom: -3px;
+}
+
+/* #ulasan .row{
+    background-color: #000000;
+} */
+
+.img1 {
+    width: 29%;
+    z-index: 3;
+    top: 3.5%;
+    left: -4.5%;
+}
+.img2 {
+    width: 25%;
+    z-index: 3;
+    right: -4%;
+    bottom: -1%;
+}
+
+#maps {
+    padding-top: 80px;
+    
+}
+
+.lokasiText h1, p{
+    font-family: "Fredoka", sans-serif;   
+}
+.lokasiText h1{
+    color: #FF8F3A;
+    font-weight: 380;
+}
+.lokasiText p {
+    font-size: 20px;
+}
+.lokasiText img {
+    display: none;
+}
+.maps img{
+    width: 100%;
+    
+}
+.maps iframe{
+    border-radius: 20px;
+    z-index: 1;
+}
+.lokasiImg{
+    left: -10%;
+    bottom: -0.01%;
+}
+footer{
+    height: 10vh;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+.click{
+    color: #FF6E00;
+    text-decoration: underline;
+}
+.ulasanCard{
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    #home {
+        height: 100vh;
+    }
+    #menu {
+        height: 100vh;
+    }
+    #ulasan {
+        height: 100vh;
+    }
+    #maps {
+        height: 100vh;
+    }
+    .homeText h1{
+        font-size: 100px;
+        font-weight: 400;
+        margin-bottom: -20px;
+    }
+    .menu2{
+        justify-content: space-between;
+    }
+    .menu1{
+        justify-content: space-between;
+    }
+    #menu p{
+        font-family: "Fredoka", sans-serif;
+        width: 50%;
+        font-size: 20px;
+    }
+    .img1 {
+        width: 12%;
+        z-index: 3;
+        top: 4%;
+        left: -3.2%;
+    }
+    .img2 {
+        width: 15%;
+        z-index: 3;
+        right: -5%;
+        bottom: -8.7%;
+    }
+    .lokasiText img {
+        width: 30%;
+        margin-left: 300px;
+    }
+    .lokasiText img {
+        display: block;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .img1 {
+        width: 19%;
+        z-index: 3;
+        top: 1%;
+        left: -6.5%;
+    }
+    .img2 {
+        width: 18%;
+        z-index: 3;
+        right: 17%;
+        bottom: -2.9%;
+    }
+    .img3{
+        width: 30%;
+    }
+    
+}
+
